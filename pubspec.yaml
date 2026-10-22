@@ -1,0 +1,25 @@
+name: aguila_waterworks
+description: "A water utility management application for Aguila Women's Waterworks Inc."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  supabase_flutter: ^2.18.3
+  fl_chart: ^0.68.0
+  cupertino_icons: ^1.0.8
+  pdf: ^3.10.8
+  printing: ^5.13.1
+  csv: ^6.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true

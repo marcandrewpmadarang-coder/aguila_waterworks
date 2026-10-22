@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Aguila Waterworks (Web)",
+      "request": "launch",
+      "type": "dart",
+      "args": [
+        "--web-browser-flag", "--disable-web-security",
+        "--web-browser-flag", "--user-data-dir=C:/ChromeDevSession"
+      ]
+    }
+  ]
+}
